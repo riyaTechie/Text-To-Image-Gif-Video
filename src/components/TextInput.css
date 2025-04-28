@@ -1,0 +1,51 @@
+.text-input-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.text-input-field {
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  max-width: 700px;
+  min-width: 700px;
+  min-height: 100px;
+}
+
+.button-container {
+  width: 700px;
+  display: flex;
+  gap: 16px;
+}
+
+.submit-btn,
+.mic-btn {
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-btn {
+  flex: 1;
+}
+
+select {
+  font-size: 1rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  border: 1px solid transparent;
+}
+
+select:focus,
+select:focus-visible,
+select:hover,
+select:active {
+  outline: 4px auto -webkit-focus-ring-color;
+}

@@ -1,0 +1,31 @@
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-bottom: solid 1px #3d3d3d;
+  flex-shrink: 0;
+}
+
+h1 {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.email-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.logout {
+  color: white !important;
+  background-color: rgb(255, 66, 66);
+  border-radius: 5px;
+}
+.email-container p {
+  cursor: pointer;
+  padding: 2px 5px;
+  color: #357ab7;
+}

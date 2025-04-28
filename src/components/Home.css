@@ -1,0 +1,56 @@
+.container {
+  width: 100vw;
+  padding-bottom: 20px;
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-container::-webkit-scrollbar {
+  width: 5px; /* For vertical scrollbars */
+  height: 5px; /* For horizontal scrollbars */
+}
+
+.app-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.app-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* .container::-webkit-scrollbar {
+  display: none; 
+} */
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.app-container {
+  flex: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+}
+.app-container > div {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.media-selector select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.media-video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+}
